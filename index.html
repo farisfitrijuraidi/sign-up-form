@@ -27,11 +27,11 @@
                 <form>
                     <div>
                         <label for="fname">FIRST NAME</label>
-                        <input type="text" id="fname" name="first_name" value="">
+                        <input type="text" id="fname" name="first_name" pattern="[a-zA-Z\s]+" value="">
                     </div>
                     <div>
                         <label for="lname">LAST NAME</label>
-                        <input type="text" id="lname" name="last_name" value="">
+                        <input type="text" id="lname" name="last_name" pattern="[a-zA-Z\s]+" value="">
                     </div>
                     <div>
                         <label for="email">EMAIL</label>
@@ -55,7 +55,7 @@
                 <div>
                     <button>Create account</button>
                 </div>
-                <p>Already have an account? Log in</p>
+                <p>Already have an account? <a>Log in</a></p>
             </footer>
         </div> 
     </div> 
